@@ -4,8 +4,8 @@ This is a simple Chrome extension that replaces specific strings on web pages. I
 
 ## What it Does / How to Use
 
-1. Go to a website and hit 'On'
-2. Now all instances of words located in 'data' array in contentScript.js of the website will be changed to the newWord.
+1. Go to a website and hit 'On'.
+2. Now all text on the webpage matching the text to be replaced in wordData is replaced with newWord from the same file.
 3. For the extension to work across websites, it must be reloaded.
 
 ## Installation
