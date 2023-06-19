@@ -1,6 +1,6 @@
-const newWord = 'Spellbreak';
-
-const data = [
+window.wordData = {
+newWord: 'Spellbreak',
+data: [
     'Minecraft',
     'Fortnite',
     'Grand Theft Auto V',
@@ -150,6 +150,5 @@ const data = [
     'God of War: Ragnarok',
     'Resident Evil 4 Remake',
     'Marvel\'s Spider-Man 2'
-  ];
-
-  export {data, newWord};
+  ]
+}
